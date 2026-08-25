@@ -33,14 +33,26 @@
 
 # Count digit of a number
 
-num = int(input("Enter a number :"))
-length = 0
-while num>0:
-    num = num//10
-    length+=1
+# num = int(input("Enter a number :"))
+# length = 0
+# if num == 0:
+#     length = 1
+# else:
+#  while num>0:
+#     num = num//10
+#     length+=1
 
-print(length)
+# print(length)
 
+
+# program to find factorial 
+
+num = int(input("Enter the number :"))
+fact = 1
+while num > 0:
+   fact=fact*num
+   num-=1
+print(fact)
 
 
 
